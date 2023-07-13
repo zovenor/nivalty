@@ -1,4 +1,4 @@
-# Nivalty
+![Nivalty](img/nivalty.png)
 
 ### Install uvicorn
 
