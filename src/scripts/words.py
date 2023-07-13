@@ -1,11 +1,9 @@
 import json
 import random
 
-from settings import DATADIR_PATH
+from src.settings import WORDS_PATH
 
-path = DATADIR_PATH + '/words.json'
-
-with open(path, 'rb') as file:
+with open(WORDS_PATH, 'r') as file:
     words = json.load(file)
 
 
