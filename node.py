@@ -6,6 +6,6 @@ app = FastAPI()
 blockchain = BlockChain()
 
 
-@app.get('/')
+@app.get('/last_block')
 def get_last_block():
     return blockchain.get_last_block()
