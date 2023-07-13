@@ -35,8 +35,8 @@ INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 
 And then send a request
 
-```http request
-http://127.0.0.1:8000/last_block
+```shell
+curl http://127.0.0.1:8000/last_block
 ```
 
 Result:
