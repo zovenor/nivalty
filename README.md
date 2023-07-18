@@ -13,6 +13,10 @@ sudo apt install python-uvicorn
 ```shell
 sudo dnf install python-uvicorn
 ```
+- For Mac OS
+```shell
+brew install uvicorn
+```
 
 - Using pip
 
